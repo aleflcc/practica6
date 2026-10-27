@@ -2,12 +2,11 @@
 
 **Nombre de la misión:** Rescate del repositorio
 
-**ESTADO DE LA MISIÓN: LANZAMIENTO LISTO POR AURORA**
+**ESTADO DE LA MISIÓN: ATERRIZAJE LISTO POR ORBITA**
 
-**Mensaje a la tripulación:** Sistemas de ignición listos para el despegue.
+**Mensaje a la tripulación:** Coordenadas de reentrada confirmadas y paracaídas preparados.
 
 ## Decisiones de los equipos
 
-- Aurora: Sistemas verificados al 100% y secuencia de despegue programada.
-- Órbita: pendiente.
-
+- Aurora: pendiente.
+- Órbita: Sistemas de reentrada configurados y paracaídas inspeccionados.

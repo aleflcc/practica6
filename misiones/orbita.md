@@ -1,19 +1,15 @@
 # Equipo Órbita — Tarjeta de misión
 
-**Responsabilidad:** preparar la fase de aterrizaje.
-
-## Retos
-1. En este archivo, sustituye los campos pendientes por una decisión concreta.
-2. Agrega **tres pasos** de aterrizaje, escritos con claridad.
-3. Modifica `panel/estado.md`: reemplaza `PENDIENTE` por `ATERRIZAJE LISTO POR ORBITA`.
-4. Cambia el mensaje a la tripulación por uno acorde con el aterrizaje.
-5. Abre un PR **desde `feature/orbita-aterrizaje` hacia `develop`**.
-6. Pide una revisión a Aurora; responde y corrige al menos un comentario.
+Responsabilidad: preparar la fase de aterrizaje.
 
 ## Plan de aterrizaje
-- Paso 1: pendiente.
-- Paso 2: pendiente.
-- Paso 3: pendiente.
+- Paso 1: Orientación del módulo de entrada y desacoplamiento del escudo térmico.
+- Paso 2: Despliegue de paracaídas principales a los 5,000 metros de altitud.
+- Paso 3: Encendido de retrocohetes de frenado final y contacto suave en superficie.
 
 ## Pregunta para el otro equipo
 ¿Qué podría salir mal durante el aterrizaje?
+
+## Respuesta a la pregunta de Aurora
+**Pregunta de Aurora:** ¿Qué podría salir mal durante el lanzamiento?
+**Respuesta de Órbita:** Podría presentarse una fuga de presión en las válvulas de combustible o una pérdida momentánea de telemetría por interferencia atmosférica durante la ignición.
