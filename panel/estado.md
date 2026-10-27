@@ -2,6 +2,6 @@
 
 **Nombre de la misión:** Rescate del repositorio
 
-**ESTADO DE LA MISIÓN: LANZAMIENTO LISTO POR AURORA**
+**ESTADO DE LA MISIÓN: ATERRIZAJE LISTO POR ORBITA**
 
-**Mensaje a la tripulación:** Coordenadas de trayectoria confirmadas por Aurora.
+**Mensaje a la tripulación:** Coordenadas de reentrada confirmadas por Órbita.
