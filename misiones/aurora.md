@@ -1,19 +1,15 @@
 # Equipo Aurora — Tarjeta de misión
 
-**Responsabilidad:** preparar la fase de lanzamiento.
-
-## Retos
-1. En este archivo, sustituye los campos pendientes por una decisión concreta.
-2. Agrega **tres pasos** de preparación de la misión, escritos con claridad.
-3. Modifica `panel/estado.md`: reemplaza `PENDIENTE` por `LANZAMIENTO LISTO POR AURORA`.
-4. Cambia el mensaje a la tripulación por uno acorde con el lanzamiento.
-5. Abre un PR **desde `feature/aurora-lanzamiento` hacia `develop`**.
-6. Pide una revisión a Órbita; responde y corrige al menos un comentario.
+Responsabilidad: preparar la fase de lanzamiento.
 
 ## Plan de lanzamiento
-- Paso 1: pendiente.
-- Paso 2: pendiente.
-- Paso 3: pendiente.
+- Paso 1: Verificación de sensores térmicos y telemetría en banda Ka.
+- Paso 2: Carga y presurización de tanques de combustible del propulsor principal.
+- Paso 3: Inicio de secuencia de ignición y autorización de la torre de control.
 
 ## Pregunta para el otro equipo
 ¿Qué podría salir mal durante el lanzamiento?
+
+## Respuesta a la pregunta de Órbita
+**Pregunta de Órbita:** ¿Qué podría salir mal durante el aterrizaje?
+**Respuesta de Aurora:** Podría ocurrir un fallo en los sensores de altitud o el despliegue tardío de los paracaídas debido a la turbulencia de reentrada; por eso se incluyen retrocohetes de respaldo automático.

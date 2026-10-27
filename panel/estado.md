@@ -2,13 +2,11 @@
 
 **Nombre de la misión:** Rescate del repositorio
 
-**ESTADO DE LA MISIÓN: PENDIENTE**
+**ESTADO DE LA MISIÓN: MISIÓN INTEGRADA CON ÉXITO (AURORA Y ÓRBITA LISTOS)**
 
-**Mensaje a la tripulación:** Esperando instrucciones.
+**Mensaje a la tripulación:** Fases de lanzamiento y aterrizaje sincronizadas y listas para la ejecución.
 
 ## Decisiones de los equipos
 
-- Aurora: pendiente.
-- Órbita: pendiente.
-
-> Atención: ambos equipos tendrán que editar la línea `ESTADO DE LA MISIÓN` en sus ramas. ¡No se coordinen para usar el mismo texto! La diferencia creará un caso para resolver cuando se integre el segundo PR.
+- Aurora: Sistemas verificados al 100% y secuencia de despegue programada.
+- Órbita: Sistemas de reentrada configurados y paracaídas inspeccionados.
