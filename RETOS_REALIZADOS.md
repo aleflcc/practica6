@@ -111,3 +111,51 @@ Comando ejecutado:
 `git restore -- manual/comandos.md`
 
 **Aprendizaje:** restaura el archivo a su versión registrada en el índice. Se comprobó previamente que no hubiera cambios pendientes en ese archivo, por lo que no se descartó trabajo.
+
+## Reto 3 — Cambio de último minuto
+
+### 1. Actualizar referencias remotas
+
+Comando ejecutado:
+
+`git fetch origin`
+
+**Aprendizaje:** actualiza las referencias locales de las ramas remotas sin fusionar sus cambios en la rama actual.
+
+### 2. Comparar los cambios con develop
+
+Comando ejecutado:
+
+`git diff origin/develop...HEAD`
+
+**Demostración:** se observaron los archivos que difieren entre la rama de trabajo y `origin/develop`.
+
+**Aprendizaje:** permite revisar los cambios introducidos en una rama desde el punto común de sus historiales.
+
+### 3. Crear un commit de prueba
+
+Comandos ejecutados en la rama temporal `jimena/prueba-cherry-origen`:
+
+`git switch -c jimena/prueba-cherry-origen`
+
+`git add .\prueba_cherry.txt`
+
+`git commit -m "test: preparar commit para cherry-pick"`
+
+**Demostración:** se creó el commit temporal `b03693b` para practicar la aplicación de cambios entre ramas.
+
+### 4. Aplicar un commit con cherry-pick
+
+Comandos ejecutados en la rama temporal `jimena/prueba-cherry-destino`:
+
+`git switch -c jimena/prueba-cherry-destino`
+
+`git cherry-pick b03693b`
+
+**Aprendizaje:** `git cherry-pick` aplica los cambios de un commit específico sobre la rama actual y genera un nuevo commit, sin fusionar toda la rama de origen.
+
+### 5. Limpiar las ramas temporales
+
+Se regresó a `jimena/retos-extra` y se eliminaron las ramas locales de prueba después de verificar que el repositorio de trabajo estaba limpio.
+
+**Aprendizaje:** las pruebas se realizaron en ramas separadas, sin modificar directamente `main` ni `develop`.
