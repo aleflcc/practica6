@@ -55,3 +55,59 @@ Comando ejecutado:
 
 Se retiró del área de preparación y se eliminó el archivo temporal `prueba_reto1.txt`. Se comprobó que el directorio de trabajo quedó limpio antes de preparar este registro.
 
+
+## Reto 2 — Saltos y rescates
+
+### 1. Regresar a la rama anterior
+
+Comando ejecutado:
+
+`git switch -`
+
+**Aprendizaje:** permite regresar a la rama visitada anteriormente. Después se volvió a `jimena/retos-extra`.
+
+### 2. Guardar temporalmente cambios
+
+Comandos ejecutados:
+
+`git stash push -m "pausa de mision"`
+`git stash list`
+`git stash pop`
+
+**Demostración:** se utilizó un archivo temporal preparado previamente con `git add`. Se guardó el cambio, se consultó el stash y después se recuperó.
+
+**Aprendizaje:** `git stash` permite apartar temporalmente cambios sin crear un commit. `git stash list` muestra las entradas guardadas y `git stash pop` recupera una entrada y la elimina de la lista si la operación termina correctamente.
+
+### 3. Consultar movimientos recientes
+
+Comando ejecutado:
+
+`git reflog`
+
+**Aprendizaje:** muestra los movimientos recientes de `HEAD`, incluidos cambios de rama y commits.
+
+### 4. Actualizar referencias remotas
+
+Comando ejecutado:
+
+`git fetch origin`
+
+**Aprendizaje:** actualiza la información de las ramas remotas sin fusionar sus cambios en la rama actual.
+
+### 5. Comparar la rama con develop
+
+Comando ejecutado:
+
+`git diff origin/develop...HEAD`
+
+**Demostración:** se identificaron los archivos que difieren entre la rama de trabajo y `origin/develop`.
+
+**Aprendizaje:** permite revisar los cambios de una rama desde el punto común de sus historiales.
+
+### 6. Restaurar un archivo
+
+Comando ejecutado:
+
+`git restore -- manual/comandos.md`
+
+**Aprendizaje:** restaura el archivo a su versión registrada en el índice. Se comprobó previamente que no hubiera cambios pendientes en ese archivo, por lo que no se descartó trabajo.
