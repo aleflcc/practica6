@@ -1,6 +1,5 @@
 ﻿# Retos extra de Git
 
-**Participante:** Jimena
 **Rama de trabajo:** `jimena/retos-extra`
 **Repositorio:** `aleflcc/practica6`
 
